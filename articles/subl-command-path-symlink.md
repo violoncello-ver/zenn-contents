@@ -253,7 +253,7 @@ lrwxr-xr-x  ~/bin/subl -> /Applications/Sublime Text.app/.../subl ✅
 **③ PATH に `~/bin` が入っているか？**
 
 ```zsh
-echo $PATH | tr ':' '\n' | grep 'kame/bin'
+echo $PATH | tr ':' '\n' | grep 'あなたのユーザー名/bin'
 ```
 
 `/Users/あなたのユーザー名/bin` が表示されれば正常です。表示されない場合は Step 3〜4 を再実行してください。
