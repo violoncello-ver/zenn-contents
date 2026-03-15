@@ -176,11 +176,11 @@ echo 'export PATH=$PATH:$HOME/bin' >> ~/.zshrc
 **`export PATH=$PATH:$HOME/bin` とは**
 
 ```
-今の PATH の内容    +    ~/bin を追加
+今の PATH の内容    +     ~/bin を追加
      ↓                       ↓
 export PATH = $PATH    :    $HOME/bin
-                        ↑
-                   コロンが区切り文字
+                       ↑
+                コロンが区切り文字
 ```
 
 この1行を `.zshrc` に追記することで、**ターミナルを起動するたびに `~/bin` が PATH に追加される**ようになります。
@@ -222,7 +222,7 @@ which subl
 以下のように表示されれば正しく設定できています。
 
 ```
-/Users/kame/bin/subl  ✅
+/Users/あなたのユーザー名/bin/subl  ✅
 ```
 
 `which` は「このコマンドはどこにある？」をシェルに問い合わせるコマンドです。PATH を上から探して最初に見つかった場所を返します。
@@ -256,7 +256,7 @@ lrwxr-xr-x  ~/bin/subl -> /Applications/Sublime Text.app/.../subl ✅
 echo $PATH | tr ':' '\n' | grep 'kame/bin'
 ```
 
-`/Users/kame/bin` が表示されれば正常です。表示されない場合は Step 3〜4 を再実行してください。
+`/Users/あなたのユーザー名/bin` が表示されれば正常です。表示されない場合は Step 3〜4 を再実行してください。
 
 ---
 
