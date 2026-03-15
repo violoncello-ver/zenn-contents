@@ -1,5 +1,5 @@
 ---
-title: "Sublime Text|「subl: command not found」を解決しながらPATHの仕組みを理解する【Mac】"
+title: "Sublime Text |「subl: command not found」を解決しながらPATHの仕組みを理解する【Mac】"
 emoji: "🔍"
 type: "tech"
 topics: ["mac", "shell", "zsh", "sublimetext", "初心者"]
